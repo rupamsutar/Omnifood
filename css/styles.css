@@ -78,9 +78,13 @@ html {
     font-size: 62.5%;
 }
 
-.test {
-    padding: 10rem;
-    background-color: red;
-    max-width: 100rem;
-    font-size: 3rem;
+.hero {
+    max-width: 130rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hero-img {
+    width: 100%;
 }
