@@ -116,6 +116,25 @@ html {
 .margin-right-sm {
     margin-right: 1.6rem !important;
 }
+.container {
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+    background-color: beige;
+}
+.grid{
+    display: grid;
+    gap: 9.6rem;
+}
+.grid--2-cols {
+    grid-template-columns: repeat(2, 1fr);
+}
+.grid--3-cols {
+    grid-template-columns: repeat(3, 1fr);
+}
+.grid--4-cols {
+    grid-template-columns: repeat(4, 1fr);
+}
 
 
 
@@ -166,7 +185,7 @@ html {
 }
 .main-nav-link.nav-cta:hover, .main-nav-link.nav-cta:active {
     background-color: #cf711f;
-    
+
 }
 
 /* ************************************* */
@@ -220,4 +239,20 @@ html {
 .delivered-text span {
     color: #cf711f;
     font-weight: 600;
+}
+
+
+/* ************************************* */
+/* HOW IT WORKS SECTION */
+/* ************************************* */
+
+.section-how {
+    padding:9.6rem;
+    background-color: orangered;
+}
+
+.section-how div div{
+    padding: 100px;
+    font-size: 50px;
+    background-color: #333;
 }
