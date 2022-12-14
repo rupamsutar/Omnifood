@@ -79,9 +79,9 @@ html {
 }
 
 .hero {
+    display: grid;
     max-width: 130rem;
     margin: 0 auto;
-    display: grid;
     gap: 9.6rem;
     grid-template-columns: 1fr 1fr;
 }
@@ -137,4 +137,32 @@ html {
 }
 .margin-right-sm {
     margin-right: 1.6rem !important;
+}
+
+.delivered-meals {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    margin-top: 8rem;
+}
+.delivered-imgs {
+    display: flex;
+}
+.delivered-imgs img {
+    height: 4.8rem;
+    width:4.8rem;
+    border-radius: 1000px;
+    margin-right: -1.6rem;
+    border: 4px solid #fdf2e9;
+}
+.delivered-imgs img:last-child {
+    margin:0;
+}
+.delivered-text {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.delivered-text span {
+    color: #cf711f;
+    font-weight: 600;
 }
