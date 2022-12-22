@@ -160,3 +160,6 @@ html {
 .grid--4-cols {
     grid-template-columns: repeat(4, 1fr);
 }
+.grid--centered-v{
+    align-items: center;
+}
